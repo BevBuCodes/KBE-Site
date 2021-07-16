@@ -230,16 +230,17 @@ body {
 }
 
 
-
-#footer {
+/* footer on faq */
+/* #footer {
   position: fixed;
   width: 100%;
   left: 0;
   bottom: 0;
-  background-color: #32B6BE;           /* Footer on FAQ */
+  top:auto;
+  background-color: #32B6BE;           
   color: white;
   text-align: center;
-}
+} */
 
 
 /* testing */
