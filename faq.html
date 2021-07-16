@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/8a41f1ba32.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>K~B~E FAQs</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="./index.html" style="color:#E4729A ">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="FAQ">
+        <h1 style="color: #E4729A; padding-bottom: 25px">Frequently Asked Questions </h1>
+
+
+    </div>
+
+    <button class="accordion" style="font-weight: bold;">How do I book your balloon decoration services?</button>
+    <div class="panel">
+        <p style="font-size: 20px; color:#E4729A;">The process is simple. You can contact me via email, call, text or
+            message us at (281) 889-1555. You can hit the email icon at the bottom of the page if you want to get in
+            touch right now!</p>
+    </div>
+
+    <button class="accordion" style="font-weight: bold;">How long do the balloon decorations last?</button>
+    <div class="panel">
+        <p style="font-size: 20px; color:#E4729A;">Air filled balloons can last for weeks, depending on the indoor
+            environmental conditions. Balloons outdoors are NOT guaranteed to last any specific amount of time since
+            sun, cold, wind and rain affect the lifespan of the balloons.</p>
+    </div>
+
+    <button class="accordion" style="font-weight: bold;">How soon do I have to place an order for your delivery and to
+        decorate for my event?</button>
+    <div class="panel">
+        <p style="font-size: 20px; color:#E4729A;">The sooner the better! Please give us at lease one to two weeks
+            before your event to make sure that everything will be exactly the way you
+            want. You can always make a last minute order if we are available for your date.</p>
+    </div>
+    <button class="accordion" style="font-weight: bold;">How much do balloon decorations cost?</button>
+    <div class="panel">
+        <p style="font-size: 20px; color:#E4729A;">That is, of course, the most important question. We accommodate
+            events of all sizes, but we know there are limits to your budget. Please contact us so we can discuss your
+            ideas and the pricing of our services.</p>
+    </div>
+    <button class="accordion" style="font-weight: bold;">Can we meet at my event space or location?</button>
+    <div class="panel">
+        <p style="font-size: 20px; color:#E4729A;">Yes! Onsite consultations are available. There is an additional fee
+            when the site is outside of the La Grange area.</p>
+    </div>
+    <button class="accordion" style="font-weight: bold;">What areas do you serve?</button>
+    <div class="panel">
+        <p style="font-size: 20px; color:#E4729A;">La Grange, TX and surrounding areas. If you are unsure if we will
+            come to you, please contact us and we will take your location into consideration.</p>
+    </div>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <h2>Get in Touch</h2>
+        <p>Text or Call</p>
+
+        <span><i class="fas fa-mobile-alt fa-2x"> </i></span> <span><i class="fas fa-phone fa-2x"></i></span> <br>
+        <p>(281) 889-1555</p>
+
+        <div>
+            <p>Click Below to Email Me!</p>
+            <a href="mailto: kmvegatpa@gmail.com"> <i class="far fa-envelope fa-2x"></i></a>
+            <br>
+
+        </div>
+        <div>
+            <h5>
+                Website Designed By:
+                <img src="images/LogoBrown.png" alt="logo" style="width: auto; height: 75px">
+            </h5>
+        </div>
+    </footer>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
