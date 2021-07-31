@@ -258,6 +258,7 @@ p {
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+    padding-bottom: 25px;
 }
 
 .row {
@@ -325,3 +326,33 @@ p {
         display: none;
     }
 }
+
+
+/* testimonial bootstrap test */
+
+/* Carousel dark indicators */
+/* Add an extra .carousel parent class to increase specifity
+   avoiding the use of !important flag. */
+.carousel .carousel-indicators li {
+  background-color: #fff;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #444;
+}
+
+/* Only for beautify example */
+h1 {
+  margin: 60px auto;
+  text-align: center;
+}
+
+/* img {
+  width: 100%;
+} */
+
+.item {
+    margin-bottom: 20px;
+}
+
