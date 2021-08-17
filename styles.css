@@ -57,8 +57,8 @@ body {
         }
 
         .container-fluid {
-            padding-top: 20px;
-            padding-bottom: 50px;
+            padding-top: 10px;
+            padding-bottom: 15px;
             padding-left: 15px;
             padding-right: 15px;
         }
@@ -177,16 +177,12 @@ body {
   
 }
 
-
-
-
-
 .col-4 p {
     font-size: 14px;
 }
 
 p {
-    color: white;
+ color: white;
  font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -254,6 +250,10 @@ p {
 
 }
 
+#testimonials {
+    padding-bottom: 0%
+}
+
 .rating .fas{
     color: #58D1BA;
 }
@@ -264,18 +264,6 @@ p {
     }
 }
 
-
-/* testimonial bootstrap */
-
-/* Carousel dark indicators */
-.carousel .carousel-indicators li {
-  background-color: #fff;
-  background-color: rgba(70,70,70,.25);
-}
-
-.carousel .carousel-indicators .active {
-  background-color: #444;
-}
 
 h1 {
   margin: 60px auto;
