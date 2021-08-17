@@ -34,13 +34,14 @@ body {
 
         .bg-1 {
             background-color: #32B6BE;
-            
+            margin-bottom: 20px;
             color: #ffffff;
         }
 
         .bg-2 {
             background-color: #E4729A;
-          
+            margin-top: 20px;
+            margin-bottom: 20px;
             color: #ffffff;
         }
 
@@ -53,6 +54,7 @@ body {
         .bg-4 {
             background-color: #32B6BE;
             /* Black Gray */
+            margin-top: 35px;
             color: #fff;
         }
 
